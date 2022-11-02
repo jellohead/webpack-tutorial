@@ -1,17 +1,14 @@
 import _ from 'lodash';
-import './style.css';
-import Icon from './check.png';
+
 
 function component() {
     const element = document.createElement('div');
 
     element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-    element.classList.add('hello');
+    element.classList.
 
-    const myIcon = new Image();
-    myIcon.src = Icon;
 
-    element.appendChild(myIcon);
+
     return element;
 }
 
